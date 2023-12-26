@@ -37,8 +37,6 @@ const ExcelImport: React.FC = () => {
         item.unshift(<GetText text={item} />)
         return { ...item, key: index }
       })
-      console.log('tableColumns', tableColumns)
-      console.log('tempSetData', tempSetData)
       setData(tempSetData)
     }
 
